@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <family code="2317" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Thunderous Fortunes NT" version="1.0.1" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="N"
+              numberGenerator="RNG"
+              betMultipliers="100,200,300,500,1000,2000"
+              spots=""
+              productId="1"
+              gamegroup="eGames"
+              languages="en,en_US,nb_NO"
+              skbPlatformVersion="1.4.0"
+              merchandisePrize="N"
+              stateful="N">                
+
+            <!-- NT kr1, kr2, kr3, kr5, kr10 & kr20  -->
+            <paymodel modelid="300-2317-001"  revealId="4650" revealVersionId="4644"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Thunderous Fortunes WLA : 300-2317-001"
+                      hibethold="20.00" lobethold="20.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+                      
+            <paymodelConfig modelid="300-2317-001"   clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2317-001"   clienttype="HTML" configcode="PHLP"/>
+
+            <denom currencycode="NOK" amount="0.01"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+        </game>
+    </family>
